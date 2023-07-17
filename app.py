@@ -12,7 +12,7 @@ def is_prime(num):
 
 def main():
     st.title("Prime Number Checker")
-    number = st.number_input("Enter a number:")
+    number = st.number_input("Enter a number (ignore decimals):")
 
     if st.button("Check"):
         if is_prime(number):
